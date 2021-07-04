@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "watch": "tsc -w",
-    "startDev": "nodemon dist/index.js"
+    "startDev": "nodemon dist/index.js",
+    "build":"tsc"
   },
   "dependencies": {
     "dotenv": "^10.0.0",
